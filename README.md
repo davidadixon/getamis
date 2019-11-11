@@ -1,3 +1,5 @@
+I have changed the layout of the JSON so it can be nested one down.  This makes it so you can nest other mappings the same way.  You now have to include RegionMap in your original CFN template, then transform under that.
+
 A process you can using bash to print out new AMI's to JSON format and post it to an S3 bucket.
 
 Please replace your bucket name in the rungetami.sh and if you want to use this in CloudFormation using Fn::Transform make the bucket public.
